@@ -34,8 +34,15 @@ public class PreparedStatement01 {
         String query1 = "UPDATE departments SET pass_grade =  ?  WHERE department ILIKE ?  ;";
         PreparedStatement prs1 = connection.prepareStatement(query1); //   We don't need statement when we are dealing with Parameterised query. Instead, we need PreparedStatement.
 
+
         prs1.setString(2, "Management");
         prs1.setInt(1, 495);
+
+
+
+        prs1.setString(2, "Psychology");
+        prs1.setInt(1, 1);
+
 
         int rowsUpdated = prs1.executeUpdate();
         System.out.println("rowsUpdated = " + rowsUpdated);
@@ -52,6 +59,8 @@ public class PreparedStatement01 {
 
             System.out.println( dept_id + " - "+ dep_name + " - "+ pass_grade + " - "+ campus);
         }
+        // Task 1: Update pass_grade to 480 of Psychologie department from departments table (use PreparedStatement)
+
 
 
 

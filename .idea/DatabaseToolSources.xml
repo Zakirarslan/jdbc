@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DatabaseToolSources">
+    <data-source name="jdbc:postgresql://localhost:5432/jobcenter" uuid="7ee9ff9c-63bb-4b72-b594-f3f1510ec96f" type="POSTGRES">
+      <base-info connect-type="DB_DEFAULT" product="PostgreSQL" version="16.3" major-version="16" minor-version="3" jdbc-name="PostgreSQL JDBC Driver" jdbc-version="42.6.0" jdbc-major-version="42" jdbc-minor-version="6" />
+      <user-name>ZakirJdbc</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node negative="1">
+            <node kind="database" qname="postgres" operator="@">
+              <node kind="schema">
+                <name qname="information_schema" />
+                <name qname="pg_catalog" />
+                <name qname="pg_toast" />
+                <name qname="public" />
+              </node>
+            </node>
+            <node kind="database" qname="techproed" operator="@">
+              <node kind="schema">
+                <name qname="information_schema" />
+                <name qname="pg_catalog" />
+                <name qname="pg_toast" />
+                <name qname="public" />
+              </node>
+            </node>
+            <node kind="database" qname="QA001JC" operator="@">
+              <node kind="schema">
+                <name qname="information_schema" />
+                <name qname="pg_catalog" />
+                <name qname="pg_toast" />
+                <name qname="public" />
+              </node>
+            </node>
+            <node kind="database" qname="b101" operator="@">
+              <node kind="schema">
+                <name qname="information_schema" />
+                <name qname="pg_catalog" />
+                <name qname="pg_toast" />
+                <name qname="public" />
+              </node>
+            </node>
+            <node kind="database" qname="b102" operator="@">
+              <node kind="schema">
+                <name qname="information_schema" />
+                <name qname="pg_catalog" />
+                <name qname="pg_toast" />
+                <name qname="public" />
+              </node>
+            </node>
+            <node kind="database" qname="school" operator="@">
+              <node kind="schema">
+                <name qname="information_schema" />
+                <name qname="pg_catalog" />
+                <name qname="pg_toast" />
+                <name qname="public" />
+              </node>
+            </node>
+            <node kind="database" qname="mlk" operator="@">
+              <node kind="schema">
+                <name qname="information_schema" />
+                <name qname="pg_catalog" />
+                <name qname="pg_toast" />
+                <name qname="public" />
+              </node>
+            </node>
+            <node kind="database" qname="C:\Users\zakir\Desktop\QA\Dersnotları\SQL\SQL From Melik\dvdre" operator="@">
+              <node kind="schema">
+                <name qname="information_schema" />
+                <name qname="pg_catalog" />
+                <name qname="pg_toast" />
+                <name qname="public" />
+              </node>
+            </node>
+            <node kind="database" qname="jobcenter" operator="@">
+              <node kind="schema">
+                <name qname="information_schema" />
+                <name qname="pg_catalog" />
+                <name qname="pg_toast" />
+                <name qname="public" />
+              </node>
+            </node>
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+      <choose-schema-mapping>
+        <introspection-scope>
+          <node negative="1">
+            <node kind="database" qname="jobcenter" operator="@">
+              <node kind="schema">
+                <name qname="public" />
+              </node>
+            </node>
+            <node kind="database" qname="postgres" operator="@">
+              <node kind="schema">
+                <name qname="public" />
+              </node>
+            </node>
+          </node>
+        </introspection-scope>
+      </choose-schema-mapping>
+      <url>jdbc:postgresql://localhost:5432/jobcenter</url>
+      <remarks />
+      <vm-options />
+      <driver-info id="postgresql" />
+      <ssh-properties enabled="false" />
+      <ssl-config enabled="false">
+        <uuid />
+        <caFile />
+        <clientCertificateFile />
+        <clientKeyFile />
+        <sslMode>REQUIRE</sslMode>
+      </ssl-config>
+    </data-source>
+  </component>
+</project>
